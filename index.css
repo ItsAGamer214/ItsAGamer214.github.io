@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url("./Noto_Sans/static/NotoSans-Regular.ttf") format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-style: bold;
+    src: url("./Noto_Sans/static/NotoSans-Bold.ttf") format('truetype');
+
+}
+
+
+
+body {
+    background-color: #181a1b;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 18px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #202324; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #454a4d; /* Color of the scrollbar thumb */
+
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #454a4d; /* Color of the scrollbar thumb when hovered */
+}
+
+.pfp{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    border-radius: 17.5%;
+    opacity: 85%;
+}
+.col-left{
+    position: fixed;
+    
+    left:20%;
+    
+    padding-top: 4%;
+    width: 15%;
+    
+}
+.col-right{
+    
+    position: absolute;
+    left: 40%;
+    top: 4%;
+    width:38%
+}
+
+a {
+    color: rgb(97, 176, 255); /* Default link color */
+    text-decoration: none; /* Remove underline */
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a:visited {
+    color: rgb(97, 176, 255); /* Color for visited links */
+}
+
+a:hover {
+    color: rgb(183, 219, 255); /* Color when hovering over the link */
+    text-decoration: none; /* Underline on hover */
+    font-weight: bold;
+}
+
+a:active {
+    color: #ff4500; /* Color when the link is active (clicked) */
+}
+
+h1{
+    font-size: 20px;
+    color: #c1bbaf;
+    font-family: 'Noto Sans', sans-serif;
+}
+h3{
+    color: #c1bbaf;
+    font-family: 'Noto Sans', sans-serif;
+}
+li{
+    color: #c1bbaf;
+}
+p{
+    font-size: 14px;
+    color: #b5b1a9;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#name{
+    color: #efece7d4;
+}
+#email{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#college{
+    font-size: 16px;
+    padding-top: 5%;
+}
